@@ -3,12 +3,7 @@ import random
 #The Die class simulates a die that can be rolled
 
 class Die:
-
-    #init__ method initializes the
-    #sideup data attribute with a random number between 1 and 6
-    #for now
-    #later we will create an attrbute that initializes a data attribute which says
-    #how many sides the die will have
+    
     def __init__(self):
         self.__sides = 6
         self.__num = 0
