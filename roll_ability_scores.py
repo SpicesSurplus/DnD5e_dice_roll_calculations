@@ -37,10 +37,10 @@ def roll_four_times(die1):
 def find_top_three_and_add(rolls):
     #print("\nHere is what we rolled: "+ str(rolls))
 
-    minval = min(rolls)
+    min_value = min(rolls)
     #print("\nThis is our smallest value: "+ str(minval))
     #print("\nThis won't be included in our score")
-    rolls[rolls.index(minval)] = 0  # remove min value, leave 3 max values
+    rolls[rolls.index(min_value)] = 0  
     ability = sum(rolls)
 
     print("\nAbility score: "+str(ability))
