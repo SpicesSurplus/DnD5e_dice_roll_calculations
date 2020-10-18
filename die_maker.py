@@ -12,18 +12,20 @@ class Die:
         return self.__sides
 
     def roll(self):
-        if random.randint(0,6) == 1:
+        if random.randint(1,6) == 1:
             self.__num = 1
-        if random.randint(0,6)== 2:
+        if random.randint(1,6)== 2:
             self.__num = 2
-        if random.randint(0,6)==3:
+        if random.randint(1,6)==3:
             self.__num =3
-        if random.randint(0,6)==4:
+        if random.randint(1,6)==4:
             self.__num =4
-        if random.randint(0,6)==5:
+        if random.randint(1,6)==5:
             self.__num = 5
-        if random.randint(0,6)==6:
+        if random.randint(1,6)==6:
             self.__num = 6
+        else:
+            pass
 
         return self.__num
 
