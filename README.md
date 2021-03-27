@@ -1,13 +1,13 @@
 # What is this?
-This repository features calculations from the PHB that use dnd dice
-
-So far, I'm using d6s for the code provided but I would like to add an input so you can make your own d8s, d10s, and others. 
+This repository features calculations from the Fifth edition PHB that use dnd dice
 
 It's not much but it's honest work
 
 
 # What features are coming next?
 - Armor class calculation????
+- Attack Roll calculations
+- Initiative roll
 
 
 
